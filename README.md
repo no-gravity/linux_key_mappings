@@ -28,4 +28,4 @@ Edit ``` /usr/share/X11/xkb/symbols/de ``` and replace
 
 with
 
-``` key <AC10>	{ [ Return ] }; ```
+``` key <AC10>	{ [ Return, Return ] }; ```
