@@ -16,3 +16,16 @@ To make the mappings permanent, you can put them in a login-script.
 
 An alternative might be the ``` input-remapper ``` command.
 I have not tried it yet.
+
+Problem with the above approach is that it gets lost every
+time the keyboard changes or sleeps/wakes.
+
+An alternative that survives keyboard changes:
+
+Edit ``` /usr/share/X11/xkb/symbols/de ``` and replace
+
+``` key <AC10>	{ [odiaeresis, Odiaeresis, dead_doubleacute, dead_belowdot ] }; ```
+
+with
+
+``` key <AC10>	{ [ Return ] }; ```
