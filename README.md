@@ -25,7 +25,17 @@ An alternative that survives keyboard changes:
 Edit ``` /usr/share/X11/xkb/symbols/de ``` and replace
 
 ``` key <AC10>	{ [odiaeresis, Odiaeresis, dead_doubleacute, dead_belowdot ] }; ```
-
 with
-
 ``` key <AC10>	{ [ Return, Return ] }; ```
+
+``` key <AD11>	{ [udiaeresis, Udiaeresis, dead_diaeresis, dead_abovering ] }; ```
+with
+``` key <AD11>	{ [ Up, Up ] }; ```
+
+
+
+And then to clear the XKB cache:
+```
+rm -rf /var/lib/xkb/*
+setxkbmap de
+```
