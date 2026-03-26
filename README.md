@@ -32,7 +32,9 @@ with
 with  
 ``` key <AD11>	{ [ Up, Up ] }; ```
 
-
+``` key <AC11>	{ [adiaeresis, Adiaeresis, dead_circumflex, dead_caron ] }; ```  
+with  
+``` key <AC11>	{ [ Down, Down ] }; ```
 
 And then to clear the XKB cache:
 ```
