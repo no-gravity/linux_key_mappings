@@ -28,6 +28,9 @@ And then to clear the XKB cache:
 rm -rf /var/lib/xkb/*
 setxkbmap de
 ```
+---
+
+For the few times I need to type ä, ü or ö, I use the Linux compose key (which I assigned to the menu key which I have never pressed once in my life). So compose+"+o gives me an ö for example. I used the system settings for this, as it has an option to assign the compose key to the menu key.
 
 ---
 
